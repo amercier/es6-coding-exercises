@@ -5,7 +5,6 @@ matrix:
   - node_js: 6.1 # Current
     env: BUILD_DOCS=true REPORT_COVERAGE=true
   - node_js: 4.4 # LTS
-    env: NPM_DEPLOY=true
   - node_js: 0.10 # Minimum supported
 script:
 - npm test -- -- --timeout 10000
@@ -13,14 +12,3 @@ script:
 after_success:
 - '[[ "$REPORT_COVERAGE" != true ]] || cat coverage/lcov.info | ./node_modules/.bin/codecov'
 - '[[ "$REPORT_COVERAGE" != true ]] || cat coverage/lcov.info | ./node_modules/.bin/codeclimate-test-reporter'
-deploy:
-  provider: npm
-  email: pro.alexandre.mercier@gmail.com
-  api_key: $NPM_AUTH_TOKEN
-  on:
-    tags: true
-    repo: amercier/es6-coding-exercises # Prevents publishing on PRs
-    condition: $NPM_DEPLOY = true # Prevents publishing on each matrix build
-cache:
-  directories:
-  - $HOME/.nvm

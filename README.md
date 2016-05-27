@@ -1,4 +1,4 @@
-npm-package-skeleton
+es6-coding-exercises
 ====================
 
 Skeleton of a simple NPM Package with Babel and CI already configured.
@@ -32,9 +32,9 @@ Skeleton of a simple NPM Package with Babel and CI already configured.
    <small>or alternatively: create a new one, then rebase from this one</small>
 2. Set initial version (ex: `0.1.0`) in `package.json`
 3. Replace the following occurrences
-  - [ ] `amercier/npm-package-skeleton` → *your repo slug*
-  - [ ] `npm-package-skeleton` → *your project name*
-  - [ ] `package-skeleton` → *your NPM package name*
+  - [ ] `amercier/es6-coding-exercises` → *your repo slug*
+  - [ ] `es6-coding-exercises` → *your project name*
+  - [ ] `es6-coding-exercises` → *your NPM package name*
   - [ ] `Alex Mercier` → *your name*
   - [ ] `pro.alexandre.mercier@gmail.com` → *your public email address*
   - [ ] `http://amercier.com` → *your website*
@@ -66,32 +66,32 @@ Skeleton of a simple NPM Package with Babel and CI already configured.
 ---
 ## **Note:** the content after this is the actual package documentation (to be edited after cloning).
 
-npm-package-skeleton
+es6-coding-exercises
 ====================
 
-[![Latest Stable Version](https://img.shields.io/npm/v/package-skeleton.svg)](https://www.npmjs.com/package/package-skeleton)
-[![License](https://img.shields.io/npm/l/package-skeleton.svg)](https://www.npmjs.com/package/package-skeleton)
-[![Build Status](https://img.shields.io/travis/amercier/npm-package-skeleton/master.svg)](https://travis-ci.org/amercier/npm-package-skeleton)
+[![Latest Stable Version](https://img.shields.io/npm/v/es6-coding-exercises.svg)](https://www.npmjs.com/package/es6-coding-exercises)
+[![License](https://img.shields.io/npm/l/es6-coding-exercises.svg)](https://www.npmjs.com/package/es6-coding-exercises)
+[![Build Status](https://img.shields.io/travis/amercier/es6-coding-exercises/master.svg)](https://travis-ci.org/amercier/es6-coding-exercises)
 
-[![Dependency Status](http://img.shields.io/gemnasium/amercier/npm-package-skeleton.svg)](https://gemnasium.com/amercier/npm-package-skeleton)
-[![NPM Downloads](https://img.shields.io/npm/dm/package-skeleton.svg)](https://www.npmjs.com/package/package-skeleton)
-[![Test Coverage](https://img.shields.io/codecov/c/github/amercier/npm-package-skeleton/master.svg)](https://codecov.io/github/amercier/npm-package-skeleton?branch=master)
-[![API Documentation](https://doc.esdoc.org/github.com/amercier/npm-package-skeleton/badge.svg)](https://doc.esdoc.org/github.com/amercier/npm-package-skeleton/)
-[![Code Climate](https://img.shields.io/codeclimate/github/amercier/npm-package-skeleton.svg)](https://codeclimate.com/github/amercier/npm-package-skeleton)
+[![Dependency Status](http://img.shields.io/gemnasium/amercier/es6-coding-exercises.svg)](https://gemnasium.com/amercier/es6-coding-exercises)
+[![NPM Downloads](https://img.shields.io/npm/dm/es6-coding-exercises.svg)](https://www.npmjs.com/package/es6-coding-exercises)
+[![Test Coverage](https://img.shields.io/codecov/c/github/amercier/es6-coding-exercises/master.svg)](https://codecov.io/github/amercier/es6-coding-exercises?branch=master)
+[![API Documentation](https://doc.esdoc.org/github.com/amercier/es6-coding-exercises/badge.svg)](https://doc.esdoc.org/github.com/amercier/es6-coding-exercises/)
+[![Code Climate](https://img.shields.io/codeclimate/github/amercier/es6-coding-exercises.svg)](https://codeclimate.com/github/amercier/es6-coding-exercises)
 
 
 Installation
 ------------
 
-    npm install --save package-skeleton
+    npm install --save es6-coding-exercises
 
 Usage
 -----
 
 ### ES5
 
-    var xxx = require('package-skeleton').default;
+    var xxx = require('es6-coding-exercises').default;
 
 ### ES2015+
 
-    import xxx from 'package-skeleton';
+    import xxx from 'es6-coding-exercises';
